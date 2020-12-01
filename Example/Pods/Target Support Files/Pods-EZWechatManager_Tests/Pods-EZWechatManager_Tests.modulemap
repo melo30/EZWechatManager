@@ -1,0 +1,6 @@
+framework module Pods_EZWechatManager_Tests {
+  umbrella header "Pods-EZWechatManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

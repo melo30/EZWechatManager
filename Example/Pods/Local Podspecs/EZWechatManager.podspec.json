@@ -1,0 +1,31 @@
+{
+  "name": "EZWechatManager",
+  "version": "0.1.0",
+  "summary": "对微信功能的再次封装",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/melo30/EZWechatManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "melo30": "281083409@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/melo30/EZWechatManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EZWechatManager/Classes/**/*",
+  "dependencies": {
+    "WechatOpenSDK": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(inherited) $(PODS_ROOT)/WechatOpenSDK",
+    "OTHER_LDFLAGS": "$(inherited) -undefined dynamic_lookup"
+  }
+}

@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 10C1CB1F012FB385C5553B42DA44FF06 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+			productName = WechatOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		357D02AF2570EFD500683562 /* Target_EZWeChatManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 357D02AD2570EFD500683562 /* Target_EZWeChatManager.h */; };
+		357D02B02570EFD500683562 /* Target_EZWeChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 357D02AE2570EFD500683562 /* Target_EZWeChatManager.m */; };
+		53E40A138859A13B2408B00BC933F75D /* Pods-EZWechatManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD5A44A8C7812979C658DF260836B78 /* Pods-EZWechatManager_Example-dummy.m */; };
+		6B744C5E848CC5D54F8BA7BD27D59A46 /* EZWechatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA75CDAD33C0ABCA19319FAA5C31F05 /* EZWechatManager.m */; };
+		A6BDDA987B5C4108C3CE785594894D7B /* EZWechatManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C16E95CCAED41252C4B66FC396ED99A /* EZWechatManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D37A32A834F1620FB39390F07E28684A /* Pods-EZWechatManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8583E5AFB63E8403EA7BA1479BBBA150 /* Pods-EZWechatManager_Tests-dummy.m */; };
+		E407A336FA56351949F0588B3DF93BC0 /* EZWechatManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D005462B2F485BC833C18A8F016374E1 /* EZWechatManager-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28C32A73327AAD1B09F68A173D0FBB6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE0A82D7CF8574AFE063FC9C8D35D18;
+			remoteInfo = EZWechatManager;
+		};
+		3E9ADDCF8960D074F39CBD5F92CD0966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ADC09E0FD999B7F29DB9C7D0A44412F;
+			remoteInfo = "Pods-EZWechatManager_Example";
+		};
+		740B73CED984F71CB0C192AA9EBF4E90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		8DE2D82B8CD3BABA6B58C3FAF9E83E2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		264B8E251AA1CACFD4538DADB07685DA /* libEZWechatManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEZWechatManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A36F5D964C0DB15BF9BEF1D4785B412 /* Pods-EZWechatManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EZWechatManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C16E95CCAED41252C4B66FC396ED99A /* EZWechatManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZWechatManager.h; path = EZWechatManager/Classes/EZWechatManager.h; sourceTree = "<group>"; };
+		30BDAE1B5E0C61D231041F45D886AC95 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		357D02AD2570EFD500683562 /* Target_EZWeChatManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_EZWeChatManager.h; sourceTree = "<group>"; };
+		357D02AE2570EFD500683562 /* Target_EZWeChatManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_EZWeChatManager.m; sourceTree = "<group>"; };
+		3DF14C1137882BFDBFE3D846088EC9CD /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		419348BCB6502791D0641C12D3BBB2C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		51543D4295CA85FB5DEA56002A44B435 /* EZWechatManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EZWechatManager.release.xcconfig; sourceTree = "<group>"; };
+		5B16A76ED70F62AADDD90ED13ABDA0F9 /* Pods-EZWechatManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EZWechatManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		664A5A95C192C1C30FC0EE0FBD4405FF /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
+		66A60A2959F8CBBE3D0AFECABDE93811 /* libPods-EZWechatManager_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EZWechatManager_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A20403E38D94F39946C7A709DAFB72C /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
+		6FA75CDAD33C0ABCA19319FAA5C31F05 /* EZWechatManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZWechatManager.m; path = EZWechatManager/Classes/EZWechatManager.m; sourceTree = "<group>"; };
+		7571B8A95A4C1F915C908F58517945B4 /* EZWechatManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EZWechatManager.debug.xcconfig; sourceTree = "<group>"; };
+		83D5884C64C56EBAFF53263985ECA554 /* Pods-EZWechatManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EZWechatManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8583E5AFB63E8403EA7BA1479BBBA150 /* Pods-EZWechatManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EZWechatManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		866E2D566933A5A21576C90A4CE68FC7 /* Pods-EZWechatManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EZWechatManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		898B0B68CC8AB537AE24C763DB41DD35 /* EZWechatManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EZWechatManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E37CB2E7FE0781EFFC7CB95E7957EA8 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.7.1/WXApiObject.h; sourceTree = "<group>"; };
+		996D86B3EBB95139CF6DA2FD45175FE1 /* libPods-EZWechatManager_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EZWechatManager_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE8934AF72CEFA6CFF636AA07C0A4E7 /* Pods-EZWechatManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EZWechatManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DBE7DB35F189145E64589E8402DD54C /* Pods-EZWechatManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EZWechatManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9F7EC15D9102C15094B533876AAEE23F /* Pods-EZWechatManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EZWechatManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A03A7FB2109905EAB064E4BC23951005 /* EZWechatManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZWechatManager-prefix.pch"; sourceTree = "<group>"; };
+		BBD5A44A8C7812979C658DF260836B78 /* Pods-EZWechatManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EZWechatManager_Example-dummy.m"; sourceTree = "<group>"; };
+		D005462B2F485BC833C18A8F016374E1 /* EZWechatManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EZWechatManager-dummy.m"; sourceTree = "<group>"; };
+		D0F7F37F70A41D23FD153C2FBCB4B3F3 /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		E42A4BFD56F7A682AD8D1A787B22FEA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F50116D9AC4692CB4C07743AEFEC6ADF /* Pods-EZWechatManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EZWechatManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6053B39EB83B8806F9FBE12F970234EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F782F71BCF83F782AB8FB5457BB161 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53FB1C6405B90AF62E09AD18373E91B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A4CC71379182BE9729F55ACE553336E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				264B8E251AA1CACFD4538DADB07685DA /* libEZWechatManager.a */,
+				66A60A2959F8CBBE3D0AFECABDE93811 /* libPods-EZWechatManager_Example.a */,
+				996D86B3EBB95139CF6DA2FD45175FE1 /* libPods-EZWechatManager_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23B5AED93326E56E119B61DC6821CC08 /* EZWechatManager */ = {
+			isa = PBXGroup;
+			children = (
+				2C16E95CCAED41252C4B66FC396ED99A /* EZWechatManager.h */,
+				6FA75CDAD33C0ABCA19319FAA5C31F05 /* EZWechatManager.m */,
+				357D02AD2570EFD500683562 /* Target_EZWeChatManager.h */,
+				357D02AE2570EFD500683562 /* Target_EZWeChatManager.m */,
+				76EB4C5DECC949BD00D30780FFA4F4B0 /* Pod */,
+				D5F9280D2D7A422662DBFA170B27107B /* Support Files */,
+			);
+			name = EZWechatManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4EFCC29DB2A6B75D10AE3E12DE6146E9 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6A20403E38D94F39946C7A709DAFB72C /* WechatAuthSDK.h */,
+				664A5A95C192C1C30FC0EE0FBD4405FF /* WXApi.h */,
+				8E37CB2E7FE0781EFFC7CB95E7957EA8 /* WXApiObject.h */,
+				8A0B8B0F8341A04CA487D2802F707FE8 /* Frameworks */,
+				63F7E62AC6F50D87E09A5929874B8F74 /* Support Files */,
+			);
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		52C06D29DE8A74D8B72B83758947D95F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EFCC29DB2A6B75D10AE3E12DE6146E9 /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5365A5FD2E0652C63C5F5BCE7479627C /* Pods-EZWechatManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				83D5884C64C56EBAFF53263985ECA554 /* Pods-EZWechatManager_Example-acknowledgements.markdown */,
+				9DBE7DB35F189145E64589E8402DD54C /* Pods-EZWechatManager_Example-acknowledgements.plist */,
+				BBD5A44A8C7812979C658DF260836B78 /* Pods-EZWechatManager_Example-dummy.m */,
+				9F7EC15D9102C15094B533876AAEE23F /* Pods-EZWechatManager_Example.debug.xcconfig */,
+				5B16A76ED70F62AADDD90ED13ABDA0F9 /* Pods-EZWechatManager_Example.release.xcconfig */,
+			);
+			name = "Pods-EZWechatManager_Example";
+			path = "Target Support Files/Pods-EZWechatManager_Example";
+			sourceTree = "<group>";
+		};
+		63F7E62AC6F50D87E09A5929874B8F74 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F7F37F70A41D23FD153C2FBCB4B3F3 /* WechatOpenSDK.debug.xcconfig */,
+				3DF14C1137882BFDBFE3D846088EC9CD /* WechatOpenSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		76EB4C5DECC949BD00D30780FFA4F4B0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				898B0B68CC8AB537AE24C763DB41DD35 /* EZWechatManager.podspec */,
+				E42A4BFD56F7A682AD8D1A787B22FEA2 /* LICENSE */,
+				419348BCB6502791D0641C12D3BBB2C2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		81CD9D60838BEA3CF569A1F9C9ADA2A4 /* Pods-EZWechatManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2A36F5D964C0DB15BF9BEF1D4785B412 /* Pods-EZWechatManager_Tests-acknowledgements.markdown */,
+				F50116D9AC4692CB4C07743AEFEC6ADF /* Pods-EZWechatManager_Tests-acknowledgements.plist */,
+				8583E5AFB63E8403EA7BA1479BBBA150 /* Pods-EZWechatManager_Tests-dummy.m */,
+				9BE8934AF72CEFA6CFF636AA07C0A4E7 /* Pods-EZWechatManager_Tests.debug.xcconfig */,
+				866E2D566933A5A21576C90A4CE68FC7 /* Pods-EZWechatManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-EZWechatManager_Tests";
+			path = "Target Support Files/Pods-EZWechatManager_Tests";
+			sourceTree = "<group>";
+		};
+		8A0B8B0F8341A04CA487D2802F707FE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30BDAE1B5E0C61D231041F45D886AC95 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAFFBAADC609CED0CA5D24C710280134 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5365A5FD2E0652C63C5F5BCE7479627C /* Pods-EZWechatManager_Example */,
+				81CD9D60838BEA3CF569A1F9C9ADA2A4 /* Pods-EZWechatManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F994BDF7CDD039EC4C620071E508D62F /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				52C06D29DE8A74D8B72B83758947D95F /* Pods */,
+				1A4CC71379182BE9729F55ACE553336E /* Products */,
+				BAFFBAADC609CED0CA5D24C710280134 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D5F9280D2D7A422662DBFA170B27107B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D005462B2F485BC833C18A8F016374E1 /* EZWechatManager-dummy.m */,
+				A03A7FB2109905EAB064E4BC23951005 /* EZWechatManager-prefix.pch */,
+				7571B8A95A4C1F915C908F58517945B4 /* EZWechatManager.debug.xcconfig */,
+				51543D4295CA85FB5DEA56002A44B435 /* EZWechatManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EZWechatManager";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F994BDF7CDD039EC4C620071E508D62F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23B5AED93326E56E119B61DC6821CC08 /* EZWechatManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19198CBC017EE8534ECED902E73B5779 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357D02AF2570EFD500683562 /* Target_EZWeChatManager.h in Headers */,
+				A6BDDA987B5C4108C3CE785594894D7B /* EZWechatManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C035812ED08C4FB99BD41ED12AD2035F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB509648EDED7654551D8B76555D0BE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8ADC09E0FD999B7F29DB9C7D0A44412F /* Pods-EZWechatManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A38E91C8695A0F5B08E61AA6C528FF7 /* Build configuration list for PBXNativeTarget "Pods-EZWechatManager_Example" */;
+			buildPhases = (
+				C035812ED08C4FB99BD41ED12AD2035F /* Headers */,
+				FD3D1399D64C653F8FB101F0CED69532 /* Sources */,
+				F53FB1C6405B90AF62E09AD18373E91B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				011D62AD82338D653AA4F0FD1287C7AA /* PBXTargetDependency */,
+				27B56F3E91E8813B04CF10533D726C33 /* PBXTargetDependency */,
+			);
+			name = "Pods-EZWechatManager_Example";
+			productName = "Pods-EZWechatManager_Example";
+			productReference = 66A60A2959F8CBBE3D0AFECABDE93811 /* libPods-EZWechatManager_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EC65368DE71D11905886F7C7E06AA31F /* Pods-EZWechatManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ABF8609384F2817404F275FB728D7A8 /* Build configuration list for PBXNativeTarget "Pods-EZWechatManager_Tests" */;
+			buildPhases = (
+				DB509648EDED7654551D8B76555D0BE2 /* Headers */,
+				DACE6FDAEB7ADAD53D0F89DB96E0C65A /* Sources */,
+				83F782F71BCF83F782AB8FB5457BB161 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DF5A7071FC72649AF5F8A487A88F914 /* PBXTargetDependency */,
+			);
+			name = "Pods-EZWechatManager_Tests";
+			productName = "Pods-EZWechatManager_Tests";
+			productReference = 996D86B3EBB95139CF6DA2FD45175FE1 /* libPods-EZWechatManager_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EFE0A82D7CF8574AFE063FC9C8D35D18 /* EZWechatManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4EDDE29FBAB443CC78842A7B1C8933 /* Build configuration list for PBXNativeTarget "EZWechatManager" */;
+			buildPhases = (
+				19198CBC017EE8534ECED902E73B5779 /* Headers */,
+				2211288EFBE3E73F62F88DDB5D5C9986 /* Sources */,
+				6053B39EB83B8806F9FBE12F970234EB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD6DDD2B4A47A0B27B4098515A39B800 /* PBXTargetDependency */,
+			);
+			name = EZWechatManager;
+			productName = EZWechatManager;
+			productReference = 264B8E251AA1CACFD4538DADB07685DA /* libEZWechatManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1A4CC71379182BE9729F55ACE553336E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFE0A82D7CF8574AFE063FC9C8D35D18 /* EZWechatManager */,
+				8ADC09E0FD999B7F29DB9C7D0A44412F /* Pods-EZWechatManager_Example */,
+				EC65368DE71D11905886F7C7E06AA31F /* Pods-EZWechatManager_Tests */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2211288EFBE3E73F62F88DDB5D5C9986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357D02B02570EFD500683562 /* Target_EZWeChatManager.m in Sources */,
+				E407A336FA56351949F0588B3DF93BC0 /* EZWechatManager-dummy.m in Sources */,
+				6B744C5E848CC5D54F8BA7BD27D59A46 /* EZWechatManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACE6FDAEB7ADAD53D0F89DB96E0C65A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37A32A834F1620FB39390F07E28684A /* Pods-EZWechatManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3D1399D64C653F8FB101F0CED69532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E40A138859A13B2408B00BC933F75D /* Pods-EZWechatManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		011D62AD82338D653AA4F0FD1287C7AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EZWechatManager;
+			target = EFE0A82D7CF8574AFE063FC9C8D35D18 /* EZWechatManager */;
+			targetProxy = 28C32A73327AAD1B09F68A173D0FBB6E /* PBXContainerItemProxy */;
+		};
+		1DF5A7071FC72649AF5F8A487A88F914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EZWechatManager_Example";
+			target = 8ADC09E0FD999B7F29DB9C7D0A44412F /* Pods-EZWechatManager_Example */;
+			targetProxy = 3E9ADDCF8960D074F39CBD5F92CD0966 /* PBXContainerItemProxy */;
+		};
+		27B56F3E91E8813B04CF10533D726C33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 740B73CED984F71CB0C192AA9EBF4E90 /* PBXContainerItemProxy */;
+		};
+		BD6DDD2B4A47A0B27B4098515A39B800 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 8DE2D82B8CD3BABA6B58C3FAF9E83E2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B89529A062CE084D54D9BC33ED6D25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3259813892844DF249D9DA89E9D58BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7571B8A95A4C1F915C908F58517945B4 /* EZWechatManager.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EZWechatManager/EZWechatManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EZWechatManager;
+				PRODUCT_NAME = EZWechatManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56E766AE460853A7B57AAB2EA8FFAB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		60DAAA6120C0ADC3980FA2060949FECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE8934AF72CEFA6CFF636AA07C0A4E7 /* Pods-EZWechatManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B84FEE5F87D09BB118B4C30C97975B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 866E2D566933A5A21576C90A4CE68FC7 /* Pods-EZWechatManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FF5F4A18E1E93689078EA9A5DEA1A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B16A76ED70F62AADDD90ED13ABDA0F9 /* Pods-EZWechatManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2120E579FE4912E7545689E29F3223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F7F37F70A41D23FD153C2FBCB4B3F3 /* WechatOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC70086369737D551233F7C6FD4758C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51543D4295CA85FB5DEA56002A44B435 /* EZWechatManager.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EZWechatManager/EZWechatManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EZWechatManager;
+				PRODUCT_NAME = EZWechatManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DED6F0945600AE664538841658E44625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF14C1137882BFDBFE3D846088EC9CD /* WechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE66270DEB47E0F941F6BF4ED59A854C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F7EC15D9102C15094B533876AAEE23F /* Pods-EZWechatManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10C1CB1F012FB385C5553B42DA44FF06 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2120E579FE4912E7545689E29F3223 /* Debug */,
+				DED6F0945600AE664538841658E44625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E766AE460853A7B57AAB2EA8FFAB90 /* Debug */,
+				0B89529A062CE084D54D9BC33ED6D25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A38E91C8695A0F5B08E61AA6C528FF7 /* Build configuration list for PBXNativeTarget "Pods-EZWechatManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE66270DEB47E0F941F6BF4ED59A854C /* Debug */,
+				8FF5F4A18E1E93689078EA9A5DEA1A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ABF8609384F2817404F275FB728D7A8 /* Build configuration list for PBXNativeTarget "Pods-EZWechatManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DAAA6120C0ADC3980FA2060949FECC /* Debug */,
+				7B84FEE5F87D09BB118B4C30C97975B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4EDDE29FBAB443CC78842A7B1C8933 /* Build configuration list for PBXNativeTarget "EZWechatManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3259813892844DF249D9DA89E9D58BD9 /* Debug */,
+				DC70086369737D551233F7C6FD4758C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

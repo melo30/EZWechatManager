@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'EZWechatManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of EZWechatManager.'
+  s.summary          = '对微信功能的再次封装'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -39,4 +39,9 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'WechatOpenSDK'
+  s.pod_target_xcconfig = {
+      'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/WechatOpenSDK',
+      'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup'
+  }
 end

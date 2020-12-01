@@ -1,0 +1,6 @@
+framework module EZWechatManager {
+  umbrella header "EZWechatManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

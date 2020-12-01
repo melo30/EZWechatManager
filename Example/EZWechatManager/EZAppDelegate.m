@@ -7,12 +7,13 @@
 //
 
 #import "EZAppDelegate.h"
+#import "EZWechatManager.h"
 
 @implementation EZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [[EZWechatManager shareInstance] initSDKWithAppId:@"wx9707f3430c9b321c" appSecret:@"726e7f836849e27e8d46aab0e6ab41f8" universalLink:@"https://ssukn3.jmlk.co/"];
     return YES;
 }
 

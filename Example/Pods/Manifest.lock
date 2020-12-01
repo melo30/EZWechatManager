@@ -1,0 +1,23 @@
+PODS:
+  - EZWechatManager (0.1.0):
+    - WechatOpenSDK
+  - WechatOpenSDK (1.8.7.1)
+
+DEPENDENCIES:
+  - EZWechatManager (from `../`)
+
+SPEC REPOS:
+  https://cdn.cocoapods.org/:
+    - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  EZWechatManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EZWechatManager: c46d9ea7e443c6641d2c23a2f05ac26f8358324e
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+
+PODFILE CHECKSUM: 6a86115ddb2e2de468d5440189c42968bc0f43d7
+
+COCOAPODS: 1.9.3

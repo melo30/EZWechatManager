@@ -1,0 +1,1 @@
+../../../../../EZWechatManager/Classes/EZWechatManager.h
